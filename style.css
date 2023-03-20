@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(175,139,242,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+.item2{
+    position: relative;
+    width: 120px;
+}
+
+.subitem{
+    position: absolute;
+    left: 108px;
+    top: -10px;
+    top: 0;
+    width: 170px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+
+    display: none;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.item2:hover .subitem {
+	display: inline;
+    
+}
+.menu{
+    border: 1px solid black;
+    width: 120px;
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.subitem>li:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
